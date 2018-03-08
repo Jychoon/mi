@@ -1,2 +1,3 @@
-# mi
-小米首页制作
+## mi
+小米官网
+https://www.mi.com/
