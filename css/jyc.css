@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+}
+#header{
+    height:40px;
+    background: black;
+}
+#header1{
+    width:1226px;
+    margin:auto;
+
+}
+#header1-left{
+    float:left;
+}
+#header1-right{
+    float:right;
+}
+#header1 a{
+    color:#ffffff;
+}
