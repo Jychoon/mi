@@ -121,18 +121,23 @@ body{
     font-size:24px;
     font-weight: normal;
 }
-.hongmi5plus{
+.product-1{
     height: 434px;
     background: #fff;
 }
-.hongmi5plus img{
+.product-1 img{
     width:854px;
     height:100%;
 }
-.hongmi5plus .content{
+.product-1 .content{
     float:right;
     margin-top:94px;
     margin-right: 150px;
+}
+.product-1 .content-1{
+    float:right;
+    margin-top:94px;
+    margin-right: 80px;
 }
 .shadow{
    transition:  all .2s linear;
@@ -168,4 +173,51 @@ body{
 }
 .content .link{
     margin-top:120px;
+}
+.content-1 .link{
+    margin-top:120px;
+}
+.product-2{
+    height: 482px;
+    background: #fff;
+}
+.product-2-left,.product-2-left img{
+    width:606px;
+    float:left;
+}
+.product-2-right,.product-2-right img{
+    width:606px;
+    float:right;
+}
+.product-3{
+    height: 376px;
+    background: #fff;
+}
+.product-3-left{
+    width: 400px;
+    float:left;
+}
+.product-3-left img{
+    width: 400px;
+    height: 266px;
+}
+.product-3-middle{
+     width: 400px;
+    float:left;
+    margin-left: 14px;
+}
+.product-3-middle img{
+    width: 400px;
+    height: 266px;
+}
+.product-3-right{
+    width: 400px;
+    float:right;
+}
+.product-3-right img{
+    width: 400px;
+    height: 266px;
+}
+.footer{
+    background: #fff;
 }
