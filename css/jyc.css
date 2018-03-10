@@ -6,12 +6,25 @@ body{
     width:1226px;
     margin:auto;
 }
+.header{
+    margin:auto;
+}
+
+.clear{
+    clear:both;
+    height:0px;
+    overflow:hidden;
+}
+
 .topbar{
     height:40px;
     background-color: #333;
     color:#b0b0b0;
     line-height: 40px;
     font-size:12px;
+}
+.topbar a{
+    color:#b0b0b0;
 }
 .topbar-left{
     float:left;
@@ -68,12 +81,91 @@ body{
 }
 .nav-search{
     float:right;
+    margin-top:25px;
+    width:297px;
 }
-.carousel{
-    height: 620px;
+.search-text{
+    width:223px;
+    height: 50px;
+    padding: 0 10px;
+    border:1px solid #e0e0e0;
+    font-size:14px;
+    line-height: 48px;
+    float :left;
 }
-.carousel img{
-    width:100%;
+.search-btn{
+    width:52px;
+    height: 52px;
+    border:1px solid #e0e0e0;
+    font-size:20px;
+    line-height: 24px;
+    background-color: #fff;
+    color:#616161;
+    float:right;
+}
+
+.layui-carousel img {
     height: 620px;
-    left:50%;
+
+    margin-left: -500px;
+}
+.main{
+    margin:auto;
+    background: #f5f5f5;
+}
+.channel-title h2{
+    line-height: 64px;
+    margin:0;
+    padding-top:4px;
+    color:#333;
+    font-size:24px;
+    font-weight: normal;
+}
+.hongmi5plus{
+    height: 434px;
+    background: #fff;
+}
+.hongmi5plus img{
+    width:854px;
+    height:100%;
+}
+.hongmi5plus .content{
+    float:right;
+    margin-top:94px;
+    margin-right: 150px;
+}
+.shadow{
+   transition:  all .2s linear;
+}
+.shadow:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -5px, 0);
+
+}
+
+.content h1{
+    font-size:32px;
+}
+.desc{
+    line-height: 22px;
+    min-height: 44px;
+    margin:4px 0 0;
+    color:rgba(51,51,51,0.7);
+    font-size:14px;
+}
+.price{
+    line-height: 45px;
+    margin:17px 0 0;
+    color:#ff6700;
+    font-size:12px;
+    font-weight: bold;
+}
+.price strong{
+    font-family: "pricefont","Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    font-weight: normal;
+    font-size:32px;
+    letter-spacing:-2px;
+}
+.content .link{
+    margin-top:120px;
 }

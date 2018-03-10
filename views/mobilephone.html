@@ -3,9 +3,14 @@
 <!--jyc-->
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>小米手机/小米平板 - 小米商城</title>
     <link rel="icon" href="../img/logo-footer.png" type="image/gif" >
     <link href="../css/jyc.css" rel="stylesheet"  type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/layui/css/layui.css">
+    <script src="../css/layui/layui.js"></script>
+
+
 </head>
 <body>
 <!--头部-->
@@ -73,20 +78,52 @@
         </div>
         <div class="nav-search">
             <form>
-                <input type="text">
-                <input type="submit">
+                <input class="search-text" type="text">
+                <input class="iconfont search-btn " type="submit" value="&#xe7b7;">
             </form>
         </div>
     </div>
 </div>
+<div class="clear"></div>
 <!--主体-->
 <div class="main">
-    <div class="carousel">
-        <img src="../img/carousel1.jpg"/>
-        <img src="../img/carousel2.jpg"/>
+    <div class="layui-carousel" id="carouse">
+        <div carousel-item>
+            <div><img src="../img/carousel1.jpg"/></div>
+            <div><img src="../img/carousel2.jpg"/></div>
+        </div>
     </div>
+    <div class="wrap channel-title">
+        <h2>现货特卖</h2>
+    </div>
+    <div class="hongmi5plus wrap shadow">
+        <a >
+        <img src="../img/红米5plus.jpg"/>
+            <div class="content">
+            <h1>红米5 Plus</h1>
+                <p class="desc">全面屏，4000mAh大电量</p>
+                <p class="price"><strong>999</strong>元起</p>
+                <p class="link">了解产品></p>
+            </div>
+        </a>
+    </div>
+</div>
 </div>
 <!--脚部-->
 <div class="footer"></div>
+<script>
+    layui.use('carousel', function(){
+        var carousel = layui.carousel;
+        //建造实例
+        carousel.render({
+            elem: '#carouse'
+            ,width: '100%' //设置容器宽度
+            ,height: '620px'
+            ,arrow: 'always' //始终显示箭头
+            //,anim: 'updown' //切换动画方式
+
+        });
+    });
+</script>
 </body>
 </html>
