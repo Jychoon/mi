@@ -221,3 +221,44 @@ body{
 .footer{
     background: #fff;
 }
+.footer-service{
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer-service ul{
+    margin:0 ;
+    padding:0;
+    height: 25px;
+}
+.footer-service li:first-child{
+    border-left:0;
+}
+.footer-service li{
+    float: left;
+    width:19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size:16px;
+    line-height: 25px;
+    text-align: center;
+}
+.footer-links{
+    padding:40px 0;
+}
+.footer-links dl{
+    float:left;
+    width:160px;
+    height: 112px;
+    margin:0;
+}
+.footer-links dl dt{
+    margin:-1px 0 26px;
+    font-size:14px;
+    line-height: 1.25;
+    color:#424242;
+}
+.footer-links dl dd{
+    margin:10px 0 0;
+    font-size:12px;
+    color:#757575;
+}
