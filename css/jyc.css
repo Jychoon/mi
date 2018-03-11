@@ -158,6 +158,11 @@ body{
     color:rgba(51,51,51,0.7);
     font-size:14px;
 }
+.product-2 .desc,.product-3 .desc{
+    min-height: 30px;
+    margin:3px 0 0 48px;
+}
+
 .price{
     line-height: 45px;
     margin:17px 0 0;
@@ -165,11 +170,26 @@ body{
     font-size:12px;
     font-weight: bold;
 }
+.product-2 .price{
+    position: absolute;
+    right: 40px;
+    color:#ff6700;
+    bottom :10px;
+    font-weight: bold;
+    margin:0;
+    z-index:4;
+}
+.product-3 .price{
+    margin:auto;
+}
 .price strong{
     font-family: "pricefont","Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
     font-weight: normal;
     font-size:32px;
     letter-spacing:-2px;
+}
+.price del{
+    color:rgba(51,51,51,0.6);
 }
 .content .link{
     margin-top:120px;
@@ -179,22 +199,36 @@ body{
 }
 .product-2{
     height: 482px;
-    background: #fff;
+    font-size:24px;
+    background: #f5f5f5;
+}
+.product-2 .content h1{
+    font-size:24px;
+    margin:380px 0 0 48px;
 }
 .product-2-left,.product-2-left img{
     width:606px;
+    position: relative;
+    background: #fff;
     float:left;
 }
 .product-2-right,.product-2-right img{
     width:606px;
+    position: relative;
+    background: #fff;
     float:right;
 }
 .product-3{
     height: 376px;
-    background: #fff;
+    background: #f5f5f5;
+    text-align: center;
+}
+.product-3 .content h1{
+    font-size:24px;
 }
 .product-3-left{
     width: 400px;
+    background: #fff;
     float:left;
 }
 .product-3-left img{
@@ -204,6 +238,7 @@ body{
 .product-3-middle{
      width: 400px;
     float:left;
+    background: #fff;
     margin-left: 14px;
 }
 .product-3-middle img{
@@ -212,6 +247,7 @@ body{
 }
 .product-3-right{
     width: 400px;
+    background: #fff;
     float:right;
 }
 .product-3-right img{
@@ -261,4 +297,75 @@ body{
     margin:10px 0 0;
     font-size:12px;
     color:#757575;
+}
+.footer-contact{
+    float:right;
+    width:251px;
+    height:112px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color:#616161
+}
+.footer-contact p{
+    margin:0 0 16px;
+    font-size:12px;
+}
+.footer-contact .phone{
+    margin:0 0 5px;
+    font-size:22px;
+    line-height: 1;
+    color:#ff6700
+}
+.footer-btn{
+    background: #fff;
+    color:#ff6700;
+    width: 118px;
+    height: 28px;
+    font-size:12px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    display: inline-block;
+}
+.site-info{
+    padding:30px 0;
+    font-size:12px;
+    background: #fafafa;
+}
+.site-info .logo{
+    float:left;
+    width:57px;
+    height: 57px;
+    margin-right: 10px;
+}
+.site-text{
+    float:left;
+    color:#b0b0b0;
+}
+.site-text .sites{
+    margin:0;
+    line-height: 18px;
+}
+.site-text .sites a{
+    color:#757575;
+}
+.site-text a{
+    color:#b0b0b0;
+}
+.site-text span{
+    margin:0 .25em;
+}
+.site-links{
+    float:right;
+}
+.site-links img{
+    margin-left:0;
+    width:auto;
+    height: 28px;
+}
+.slogan{
+    clear:both;
+    margin:30px auto 0;
+    width:267px;
+    height:19px;
+    background:url("../img/slogan2016.png") no-repeat center 0;
 }
