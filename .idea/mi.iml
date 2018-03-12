@@ -5,5 +5,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jQuery" level="project" />
+    <orderEntry type="library" name="jQuery" level="project" />
   </component>
 </module>
