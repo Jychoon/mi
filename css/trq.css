@@ -94,7 +94,7 @@ a:hover{
     margin: auto;
     width:820px;
     height: 88px;6
-    padding:12px 0 0 30px;
+padding:12px 0 0 30px;
     list-style-type: none;
 }
 .nav-list .nav-category{
@@ -225,7 +225,7 @@ a:hover{
     margin-right: 80px;
 }
 .shadow{
-   transition:  all .2s linear;
+    transition:  all .2s linear;
 }
 .shadow:hover{
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
@@ -234,7 +234,7 @@ a:hover{
 }
 
 .content h1{
-    font-size:32px;
+    font-size:28px;
 }
 .desc{
     line-height: 22px;
@@ -321,7 +321,7 @@ a:hover{
     height: 266px;
 }
 .product-3-middle{
-     width: 400px;
+    width: 400px;
     float:left;
     background: #fff;
     margin-left: 14px;
