@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>小米手机/小米平板 - 小米商城</title>
-    <link rel="icon" href="../img/logo-footer.png" type="image/gif" >
+    <link rel="icon" href="../img/小米手机/logo-footer.png" type="image/gif" >
+    <link rel="stylesheet" href="../css/layui/css/layui.css">
     <link href="../css/jyc.css" rel="stylesheet"  type="text/css">
     <link rel="stylesheet" type="text/css" href="../css/iconfont.css">
-    <link rel="stylesheet" href="../css/layui/css/layui.css">
+
     <script src="../css/layui/layui.js"></script>
 
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/jyc.js"></script>
 
 </head>
 <body>
@@ -31,41 +34,45 @@
                 <a>登录</a><span>|</span>
                 <a>注册</a><span>|</span>
                 <a>消息通知</a><span>|</span>
-                <a>购物车</a>
+                <div id="topbar-cart" >
+                <a  >
+                    <i class="iconfont">&#xe600;</i>购物车</a>
+                </div>
+                <div class="loading" id="load" style="display:none">购物车中还没有商品，赶紧选购吧！</div>
             </div>
         </div>
     </div>
     <div class="nav wrap">
         <div class="nav-logo">
-            <a href="../index.html"><img src="../img/mi-logo.png"></a>
+            <a href="../index.html"><img src="../img/小米手机/mi-logo.png"></a>
         </div>
         <div class="header-nav">
         <ul class="nav-list">
-            <li class="nav-category">
+            <li class="nav-category" id="nav-all">
                 <a>全部商品分类</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="phone">
                 <a>小米手机</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="hongmi">
                 <a>红米</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="tv">
                 <a>电视</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="computer">
                 <a>笔记本</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="hezi">
                 <a>盒子</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="news">
                 <a>新品</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="router">
                 <a>路由器</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="hard">
             <a>智能硬件服务</a>
             </li>
             <li class="nav-item">
@@ -75,6 +82,189 @@
                 <a>社区</a>
             </li>
         </ul>
+            <div class="nav-bar-right wrap" id="navbar"style="display:none">
+                <ul>
+                    <li>
+                        <a>手机 电话卡</a>
+                    </li>
+                    <li>
+                        <a>电视 盒子</a>
+                    </li>
+                    <li>
+                        <a>笔记本</a>
+                    </li>
+                    <li>
+                        <a>智能 家居</a>
+                    </li>
+                    <li>
+                        <a>出行 儿童</a>
+                    </li>
+                    <li>
+                        <a>路由器 手机配件</a>
+                    </li>
+                    <li>
+                        <a>移动电源 插线板</a>
+                    </li>
+                    <li>
+                        <a>耳机 音响</a>
+                    </li>
+                    <li>
+                        <a>生活 米兔</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-bar-down" id="navbar1" style="display: none">
+                  <div class="wrap">
+                      <div>
+                          <img class="firstimg" src="../img/小米手机/mix2320-220.png"/>
+                      </div>
+                      <div>
+                          <img src="../img/小米手机/note2320x220.png"/>
+                      </div>
+                      <div>
+                          <img src="../img/小米手机/xm6-320.png"/>
+                      </div>
+                      <div>
+                          <img src="../img/小米手机/max2_toubu.png"/>
+                      </div>
+                      <div>
+                          <img src="../img/小米手机/5x-2!160x110.jpg"/>
+                      </div>
+                  </div>
+            </div>
+            <div class="nav-bar-down" id="navbar2" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img  class="firstimg" src="../img/小米手机/5-320-220.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/5P-320-220.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/320-220-1.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/3205a.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/320-220!160x110.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar3" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../img/小米手机/tv1.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/tv2.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/tv3.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/tv4.png" />
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/tv5.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar4" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../img/小米手机/computer1.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/computer2.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/computer3.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/computer4.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/computer5.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar5" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../img/小米手机/hezi1.png"/></div>
+                    <div>
+                        <img src="../img/小米手机/hezi2.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/hezi3.png" />
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/hezi4.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/hezi5.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar6" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../img/小米手机/xinping1.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/xinping2.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/xinping3.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/xinping4.png" />
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/xinping5.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar7" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../img/小米手机/router1.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/router2.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/router3.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/router4.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/router5.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar8" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../img/小米手机/hard1.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/hard2.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/hard3.png"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/hard4.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../img/小米手机/hard5.jpg"/>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="nav-search">
             <form>
@@ -89,8 +279,8 @@
 <div class="main">
     <div class="layui-carousel" id="carouse">
         <div carousel-item>
-            <div><img src="../img/carousel1.jpg"/></div>
-            <div><img src="../img/carousel2.jpg"/></div>
+            <div><img src="../img/小米手机/carousel1.jpg"/></div>
+            <div><img src="../img/小米手机/carousel2.jpg"/></div>
         </div>
     </div>
     <div class="wrap channel-title">
@@ -98,7 +288,7 @@
     </div>
     <div class="product-1 wrap shadow">
         <a >
-        <img src="../img/红米5plus.jpg"/>
+        <img src="../img/小米手机/红米5plus.jpg"/>
             <div class="content">
             <h1>红米5 Plus</h1>
                 <p class="desc">全面屏，4000mAh大电量</p>
@@ -111,7 +301,7 @@
     <div class="wrap product-2">
     <div class="product-2-left shadow">
     <a >
-        <img src="../img/mi5x.jpg" />
+        <img src="../img/小米手机/mi5x.jpg" />
         <div class="content">
             <h1>小米5X 变焦双摄</h1>
             <p class="desc">5.5"大屏轻薄全金属</p>
@@ -122,7 +312,7 @@
     <div class="product-2-right shadow">
         <a >
 
-            <img src="../img/miMIX2.jpg"/>
+            <img src="../img/小米手机/miMIX2.jpg"/>
             <div class="content">
                 <h1>小米5X 变焦双摄</h1>
                 <p class="desc">5.5"大屏轻薄全金属</p>
@@ -135,7 +325,7 @@
     <div class="wrap product-3">
     <div class="product-3-left wrap shadow">
         <a >
-            <img src="../img/Note5A.jpg" />
+            <img src="../img/小米手机/Note5A.jpg" />
             <div class="content">
                 <h1>红米Note 5A</h1>
                 <p class="desc">1600万像素柔光自拍</p>
@@ -145,7 +335,7 @@
     </div>
     <div class="product-3-middle wrap shadow">
     <a >
-        <img src="../img/mi6.jpg"/>
+        <img src="../img/小米手机/mi6.jpg"/>
         <div class="content">
             <h1>小米6</h1>
             <p class="desc">骁龙835 旗舰处理器</p>
@@ -155,7 +345,7 @@
 </div>
     <div class="product-3-right wrap shadow">
         <a >
-            <img src="../img/mi5A.jpg"/>
+            <img src="../img/小米手机/mi5A.jpg"/>
             <div class="content">
                 <h1>红米5A</h1>
                 <p class="desc">轻巧长续航</p>
@@ -169,7 +359,7 @@
     </div>
     <div class="product-1 wrap shadow" >
         <a >
-            <img src="../img/mi5x.jpg"/>
+            <img src="../img/小米手机/mi5x.jpg"/>
             <div class="content-1">
                 <h1>小米5X 变焦双摄</h1>
                 <p class="desc">5.5"大屏轻薄全金属</p>
@@ -182,7 +372,7 @@
     <div class="wrap product-2">
         <div class="product-2-left shadow">
             <a >
-                <img src="../img/miMIX2.jpg"/>
+                <img src="../img/小米手机/miMIX2.jpg"/>
                 <div class="content">
                     <h1>小米MIX 2 全面屏2.0</h1>
                     <p class="desc">5.99"大屏，4轴光学防抖</p>
@@ -192,7 +382,7 @@
         </div>
         <div class="product-2-right shadow">
             <a >
-                <img src="../img/MiMAX2.jpg"/>
+                <img src="../img/小米手机/MiMAX2.jpg"/>
                 <div class="content">
                     <h1>小米Max 2 大屏大电量</h1>
                     <p class="desc">6.44"大屏，5300mAh大电量</p>
@@ -206,7 +396,7 @@
         <div class="product-2-left shadow">
             <a >
 
-                <img src="../img/Note3.jpg" />
+                <img src="../img/小米手机/Note3.jpg" />
                 <div class="content">
                     <h1>小米Note 3 人脸解锁</h1>
                     <p class="desc">1600万美颜自拍</p>
@@ -216,7 +406,7 @@
         </div>
         <div class="product-2-right shadow">
             <a >
-                <img src="../img/mi6-2.jpg"/>
+                <img src="../img/小米手机/mi6-2.jpg"/>
                 <div class="content">
                     <h1>小米6 变焦双摄</h1>
                     <p class="desc">"骁龙835 旗舰处理器"</p>
@@ -230,7 +420,7 @@
     </div>
     <div class="product-1 wrap shadow" >
         <a >
-            <img src="../img/mi5x.jpg"/>
+            <img src="../img/小米手机/mi5x.jpg"/>
             <div class="content-1">
                 <h1>红米Note 5A 自拍<br>手机</h1>
                 <p class="desc">5.5"高清大屏，1600万像素柔光自拍</p>
@@ -244,7 +434,7 @@
         <div class="product-2-left shadow">
             <a >
 
-                <img src="../img/Note3.jpg" />
+                <img src="../img/小米手机/Note3.jpg" />
                 <div class="content">
                     <h1>红米5</h1>
                     <p class="desc">12MP旗舰相机，骁龙处理器</p>
@@ -254,7 +444,7 @@
         </div>
         <div class="product-2-right shadow">
             <a >
-                <img src="../img/mi6-2.jpg"/>
+                <img src="../img/小米手机/mi6-2.jpg"/>
                 <div class="content">
                     <h1>红米5 Plus</h1>
                     <p class="desc">全面屏，4000mAh大电量</p>
@@ -268,7 +458,7 @@
         <div class="product-2-left shadow">
             <a >
 
-                <img src="../img/Note3.jpg" />
+                <img src="../img/小米手机/Note3.jpg" />
                 <div class="content">
                     <h1>红米Note 4X 浅蓝色</h1>
                     <p class="desc">金属机身，超长续航</p>
@@ -278,7 +468,7 @@
         </div>
         <div class="product-2-right shadow">
             <a >
-                <img src="../img/mi6-2.jpg"/>
+                <img src="../img/小米手机/mi6-2.jpg"/>
                 <div class="content">
                     <h1>红米4A</h1>
                     <p class="desc">轻盈小巧的长续航手机</p>
@@ -294,11 +484,11 @@
     <div class="wrap">
         <div class="footer-service">
         <ul>
-            <li><a>预约维修服务</a></li>
-            <li><a>7天无理由退货</a></li>
-            <li><a>15天免费换货</a></li>
-            <li><a>满150元包邮</a></li>
-            <li><a>520余家售后网点</a></li>
+            <li><a><i class="iconfont">&#xe715;</i>预约维修服务</a></li>
+            <li><a><i class="iconfont">&#xe67d;</i>7天无理由退货</a></li>
+            <li><a><i class="iconfont">&#xe639;</i>15天免费换货</a></li>
+            <li><a><i class="iconfont">&#xe608;</i>满150元包邮</a></li>
+            <li><a><i class="iconfont">&#xe613;</i>520余家售后网点</a></li>
         </ul>
         </div>
         <div class="footer-links">
@@ -349,7 +539,7 @@
 <div class="clear"></div>
 <div class="site-info">
     <div class="wrap">
-        <div class="logo"><img src="../img/logo-footer.png"/></div>
+        <div class="logo"><img src="../img/小米手机/logo-footer.png"/></div>
         <div class="site-text">
             <p class="sites">
                 <a>小米商城</a><span>|</span>
@@ -371,11 +561,11 @@
             </p>
         </div>
         <div class="site-links">
-            <a><img src="../img/truste.png"/></a>
-            <a><img src="../img/v-logo-2.png"/></a>
-            <a><img src="../img/v-logo-1.png"/></a>
-            <a><img src="../img/v-logo-3.png"/></a>
-            <a><img src="../img/v-logo-4.png" height="28" width="85"/></a>
+            <a><img src="../img/小米手机/truste.png"/></a>
+            <a><img src="../img/小米手机/v-logo-2.png"/></a>
+            <a><img src="../img/小米手机/v-logo-1.png"/></a>
+            <a><img src="../img/小米手机/v-logo-3.png"/></a>
+            <a><img src="../img/小米手机/v-logo-4.png" height="28" width="85"/></a>
         </div>
         <div class="clear"></div>
         <div class="slogan"></div>
