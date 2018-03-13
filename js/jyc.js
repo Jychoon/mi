@@ -1,17 +1,18 @@
 
 
 $(document).ready(function(){
-    $("#topbar-cart").hover(function(){
-        $("#load").slideToggle("fast");
-    });
-    $("#nav-all").hover(function(){
-       $("#navbar").slideToggle("fast");
-    });
+    // $("#topbar-cart").hover(function(){
+    //     $("#load").slideToggle("fast");
+    // });
     $("#navbar").hover(function(){
-        this.css("display","block");
+        this.show();
     })
     $("#phone").hover(function(){
         $("#navbar1").slideToggle("fast");
+        $("#navbar1").show();
+    });
+    $("#navbar1").hover(function(){
+       $("#navbar1").show();
     });
     $("#hongmi").hover(function(){
         $("#navbar2").slideToggle("fast");
@@ -36,3 +37,10 @@ $(document).ready(function(){
     });
 
 });
+
+function  navallOver() {
+    document.getElementById("navbar").style.display="block";
+}
+function navallOut(){
+    document.getElementById("navbar").style.display="none";
+}
