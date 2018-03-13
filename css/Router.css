@@ -369,3 +369,23 @@ padding:12px 0 0 30px;
     height:19px;
     background:url("../img/slogan2016.png") no-repeat center 0;
 }
+.win_banner_mistore .n-footer {
+    background: #fff;
+    margin-top: 100px;
+    position: relative;
+    z-index: 4;
+}
+.n-footer {
+    height: 80px;
+    margin-top: -80px;
+    text-align: center;
+}
+.nf-link-area {
+    text-align: center;
+}
+.clearfix {
+    *zoom:1: ;
+}
+.nf-intro {
+    padding: 10px;
+}
