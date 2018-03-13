@@ -3,6 +3,9 @@
     z-index:10;
     height: 460px;
 }
+.main{
+    background-color: #fff;
+}
 .home-hero{
     position: relative;
     margin-bottom: 26px;
@@ -12,8 +15,15 @@
     width: 100%;
     margin-left: 0;
 }
-#home-carousel  .layui-carousel[lay-arrow=always] .layui-carousel-arrow{
-    left:400px;
+.layui-carousel[lay-arrow=always] .layui-carousel-arrow {
+    opacity: 1;
+    left: 250px;
+}
+.layui-carousel:hover .layui-carousel-arrow[lay-type=add], .layui-carousel[lay-arrow=always] .layui-carousel-arrow[lay-type=add] {
+    right: 20px;
+}
+.layui-carousel-ind ul{
+    margin-left: 100px;
 }
 .home-category{
     display: block;
@@ -41,4 +51,25 @@
 }
 .home-category ul a:hover{
     background-color: #ff6700;
+}
+.home-category ul .iconfont{
+    font-size:12px;
+    float: right;
+    margin-right: 20px;
+}
+.home-hero-sub{
+    margin-top:14px;
+    height: 170px;
+}
+.home-hero-sub .span4{
+    width:234px;
+    
+}
+.home-hero-sub .span4 ul{
+    margin:0;
+    padding:3px;
+    list-style-type: none;
+    font-size:12px;
+    text-align: center;
+    background: #5f5750;
 }
