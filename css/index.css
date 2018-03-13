@@ -1,0 +1,44 @@
+.home-hero-container{
+    position: relative;
+    z-index:10;
+    height: 460px;
+}
+.home-hero{
+    position: relative;
+    margin-bottom: 26px;
+}
+#home-carousel img{
+    height: 460px;
+    width: 100%;
+    margin-left: 0;
+}
+#home-carousel  .layui-carousel[lay-arrow=always] .layui-carousel-arrow{
+    left:400px;
+}
+.home-category{
+    display: block;
+    top:0;
+    width: 234px;
+    height:420px;
+    border:0;
+    font-size:14px;
+    position: absolute;
+    z-index:11;
+}
+.home-category ul{
+    height: 420px;
+    color:#fff;
+    margin:auto;
+    padding:20px 0;
+    background: rgba(0,0,0,0.6);
+}
+.home-category ul a{
+    color:#fff;
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+}
+.home-category ul a:hover{
+    background-color: #ff6700;
+}
