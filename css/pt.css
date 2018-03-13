@@ -106,7 +106,7 @@ body{
 
 .photoa img{
     height: 620px;
-    margin-left: -525px;
+    margin-left: -350px;
 }
 
 .main{
@@ -114,7 +114,7 @@ body{
     background: #f5f5f5;
 }
 
-.title1 h2{
+.channel-title h2{
     line-height: 64px;
     margin:0;
     padding-top:4px;
@@ -135,12 +135,12 @@ body{
 .product-1 .content{
     float:right;
     margin-top:100px;
-    margin-right: 80px;
+    margin-right: 30px;
 }
 .product-1 .content-1{
     float:right;
     margin-top:100px;
-    margin-right: 80px;
+    margin-right: 30px;
 }
 .shadow{
     transition:  all .2s linear;
@@ -183,7 +183,7 @@ body{
     color:rgba(51,51,51,0.6);
 }
 .content .link{
-    margin-top:120px;
+    margin-top:60px;
 }
 .content-1 .link{
     margin-top:120px;
@@ -252,4 +252,126 @@ body{
     position: relative;
     background: #fff;
     float:right;
+}
+
+
+.footer{
+    background: #fff;
+}
+.footer-service{
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer-service ul{
+    margin:0 ;
+    padding:0;
+    height: 25px;
+}
+.footer-service li:first-child{
+    border-left:0;
+}
+.footer-service li{
+    float: left;
+    width:19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size:16px;
+    line-height: 25px;
+    text-align: center;
+}
+.footer-service i{
+    font-size:24px;
+    margin-right: 8px;
+    vertical-align:-4px;
+}
+.footer-links{
+    padding:40px 0;
+}
+.footer-links dl{
+    float:left;
+    width:160px;
+    height: 112px;
+    margin:0;
+}
+.footer-links dl dt{
+    margin:-1px 0 26px;
+    font-size:14px;
+    line-height: 1.25;
+    color:#424242;
+}
+.footer-links dl dd{
+    margin:10px 0 0;
+    font-size:12px;
+    color:#757575;
+}
+.footer-contact{
+    float:right;
+    width:251px;
+    height:112px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color:#616161
+}
+.footer-contact p{
+    margin:0 0 16px;
+    font-size:12px;
+}
+.footer-contact .phone{
+    margin:0 0 5px;
+    font-size:22px;
+    line-height: 1;
+    color:#ff6700
+}
+.footer-btn{
+    background: #fff;
+    color:#ff6700;
+    width: 118px;
+    height: 28px;
+    font-size:12px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    display: inline-block;
+}
+.site-info{
+    padding:30px 0;
+    font-size:12px;
+    background: #fafafa;
+}
+.site-info .logo{
+    float:left;
+    width:57px;
+    height: 57px;
+    margin-right: 10px;
+}
+.site-text{
+    float:left;
+    color:#b0b0b0;
+}
+.site-text .sites{
+    margin:0;
+    line-height: 18px;
+}
+.site-text .sites a{
+    color:#757575;
+}
+.site-text a{
+    color:#b0b0b0;
+}
+.site-text span{
+    margin:0 .25em;
+}
+.site-links{
+    float:right;
+}
+.site-links img{
+    margin-left:0;
+    width:auto;
+    height: 28px;
+}
+.slogan{
+    clear:both;
+    margin:30px auto 0;
+    width:267px;
+    height:19px;
+    background:url("../img/小米手机/slogan2016.png") no-repeat center 0;
 }
