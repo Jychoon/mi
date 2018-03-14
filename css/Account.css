@@ -1,7 +1,3 @@
-body {
-    margin: 0;
-}
-
 .h_panel,
 .login_banner {
     width: 1130px;
@@ -54,9 +50,6 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-.nf-link-area {
-    text-align: center;
-}
 ul, menu, dir {
     display: block;
     list-style-type: disc;
@@ -74,3 +67,53 @@ ul, menu, dir {
     overflow: hidden;
     visibility: hidden;
 }
+.nf-link-area {
+    text-align: center;
+}
+.clearfix {
+    *zoom: 1;
+}
+#title
+{
+    text-align:center;
+}
+ul li
+{
+    list-style-type:none;
+    display:inline;
+}
+.win_banner_mistore .layout {
+    width: 410px;
+    min-height: 524px;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-size: 14px;
+    z-index: 4;
+}
+.layout {
+    background-color: #fff;
+    width: 854px;
+    margin: 0 auto 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 620px;
+}
+body {
+    color: #757575;
+}
+body {
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.nav_tabs_panel {
+    display: none;
+}
+.win_banner_mistore .nav_tabs_panel {
+    display: block;
+}
+.nav_tabs_panel {
+    display: none;
+}
+
+
