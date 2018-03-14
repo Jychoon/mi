@@ -51,7 +51,7 @@ html {
 }
 .compare-head .title {
     top:-10px;
-    left:600px;
+    left:750px;
     text-align: center;
     position: absolute;
     margin: 80px 0 0 0;
@@ -63,7 +63,7 @@ html {
 .compare-head .content {
     position: absolute;
     top:100px;
-    left:640px;
+    left:780px;
     font-size: 18px;
     line-height: 20px;
     margin-top: 20px;
@@ -92,7 +92,7 @@ html {
     padding-right: 48px;
     background: #fff;
 }
-.compare-body .body-nav {
+.compare-body .body-nav{
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 18px;
