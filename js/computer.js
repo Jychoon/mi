@@ -2,9 +2,6 @@ $(document).ready(function(){
     $("table tr th").hover(
         function(){
             $(this).children("div").fadeIn(1000);//让相应二级内容显示
-
-
-            $(this).toggleClass("orange");
         },
         function(){
             var ch=$(this).children("div");//让相应二级内容隐藏
@@ -23,7 +20,6 @@ $(document).ready(function(){
             }else{
                 ch.slideUp(300);
             }
-            $(this).toggleClass("orange");
         }
 
     );

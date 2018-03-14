@@ -46,7 +46,7 @@ tr th{
 table tr{padding-bottom:1px;}
 .orange{background-color: #C81623;}
 table th a{color:#fff;}
-table th div{display:none; position: absolute; left: 0px; top:48px;}
+table th div{display:none; position: absolute; left: 0px; top:43px;}
 #ad{
     position:fixed; *position:absolute; width:300px; height:350px; top:58%; left:0px; margin:0 0 0 0;
 }
