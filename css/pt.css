@@ -10,6 +10,10 @@ body{
     margin:auto;
 }
 
+a:hover{
+    color:#ff6700;
+}
+
 .clear{
     clear:both;
     height:0px;
@@ -26,6 +30,11 @@ body{
 .topbar a{
     color:#b0b0b0;
 }
+
+.topbar a:hover{
+    color:#fff;
+}
+
 .topbar-left{
     float:left;
 }
@@ -78,6 +87,57 @@ body{
     margin:auto;
     display: block;
     padding:26px 10px 38px;
+}
+
+
+.nav-bar-right{
+    position:absolute;
+    top:140px;
+    z-index:21;
+    width:234px;
+    height: 418px;
+    font-size:14px;
+    border:1px solid #ff6700;
+    color:#424242;
+    background: #fff;
+}
+.nav-bar-right ul{
+    height: 418px;
+    margin:0;
+    padding:20px 0;
+}
+.nav-bar-right li a{
+    display: block;
+    padding-left:30px;
+    height: 42px;
+    line-height: 42px;
+    color:#424242;
+}
+.nav-bar-right li a:hover{
+    background: #ff6700;
+    color:#fff;
+}
+.nav-bar-down{
+    position:absolute;
+    top:140px;
+    left:0;
+    z-index:24;
+    width:100%;
+    height:229px;
+    border-top:1px solid #D3D4D3;
+    background:#fff;
+}
+
+.nav-bar-down img{
+    float:left;
+    height: 110px;
+    width:160px;
+    margin-top:40px;
+    padding:10px 40px;
+    border-left: 1px solid #D3D4D3;
+}
+.nav-bar-down .firstimg{
+    border-left: none;
 }
 .nav-search{
     float:right;
@@ -332,6 +392,9 @@ body{
     border: 1px solid #ff6700;
     display: inline-block;
 }
+
+
+
 .site-info{
     padding:30px 0;
     font-size:12px;
@@ -375,3 +438,5 @@ body{
     height:19px;
     background:url("../img/小米手机/slogan2016.png") no-repeat center 0;
 }
+
+
