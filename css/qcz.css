@@ -27,3 +27,12 @@
     -ms-transform: rotate(360deg) scale(1.5);
     transform: rotate(360deg) scale(1.5);
 }
+
+.user-name{
+    position: relative;
+    z-index: 5;
+    dispaly:block;
+    width: 120px;
+    height:40px;
+    text-align: center;
+}
