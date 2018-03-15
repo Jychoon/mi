@@ -99,6 +99,7 @@ a:hover{
 }
 .nav-list .nav-category{
     display: block;
+    height: 88px;
     width:127px;
     padding-right: 15px;
     text-align: right;
@@ -140,7 +141,6 @@ a:hover{
 }
 .nav-bar-right li a:hover{
     background: #ff6700;
-    color:#fff;
 }
 .nav-bar-down{
     position:absolute;
@@ -497,11 +497,11 @@ a:hover{
 }
 .view-category ul li:hover{
     background:#ff6700;
-    color:#fff;
 }
-.view-category ul .category-children li:hover{
-    background-color: #fff;
+.view-category .children-list li:hover,.view-category .children-list a:hover{
+    background: #fff;
 }
+
 .view-category ul .category-children span:hover{
     color:#ff6700;
 }

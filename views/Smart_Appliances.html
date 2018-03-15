@@ -20,7 +20,7 @@
     <div class="topbar">
         <div class="wrap">
             <div class="topbar-left">
-                <a >小米商城</a><span >|</span>
+                <a>小米商城</a><span >|</span>
                 <a>MIUI</a><span>|</span>
                 <a>loT</a><span>|</span>
                 <a>云服务</a><span>|</span>
@@ -30,16 +30,20 @@
                 <a>Select Region</a>
             </div>
             <div class="topbar-right">
-                <a>登录</a><span>|</span>
-                <a>注册</a><span>|</span>
-                <a>消息通知</a><span>|</span>
-                <a>购物车</a>
+                <a href="Account.html" id="login">登录</a><span>|</span>
+                <a href="miregister.html" id="register">注册</a><span>|</span>
+                <a href="Personal_central.html">消息通知</a><span>|</span>
+                <div id="topbar-cart" >
+                    <a  >
+                        <i class="iconfont">&#xe600;</i>购物车</a>
+                </div>
+                <div class="loading" id="load" style="display:none">购物车中还没有商品，赶紧选购吧！</div>
             </div>
         </div>
     </div>
     <div class="nav wrap">
         <div class="nav-logo">
-            <a href="TV.html"><img src="../img/小米电视盒子图集/mi-logo.png"/></a>
+            <a href="../index.html"><img src="../img/小米手机/logo-footer.png"></a>
         </div>
         <div class="header-nav">
             <ul class="nav-list">
@@ -48,27 +52,178 @@
                 </li>
                 <li class="nav-item" id="phone">
                     <a>小米手机</a>
+                    <div class="nav-bar-down" id="navbar1">
+                        <div class="wrap">
+                            <div>
+                                <img class="firstimg" src="../img/小米手机/mix2320-220.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/note2320x220.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/xm6-320.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/max2_toubu.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/5x-2!160x110.jpg"/>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" id="hongmi">
                     <a>红米</a>
+                    <div class="nav-bar-down" id="navbar2">
+                        <div class="wrap">
+                            <div>
+                                <img  class="firstimg" src="../img/小米手机/5-320-220.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/5P-320-220.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/320-220-1.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/3205a.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/320-220!160x110.jpg"/>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" id="tv">
                     <a>电视</a>
+                    <div class="nav-bar-down" id="navbar3">
+                        <div class="wrap">
+                            <div>
+                                <img class="firstimg" src="../img/小米手机/tv1.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/tv2.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/tv3.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/tv4.png" />
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/tv5.png"/>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" id="computer">
                     <a>笔记本</a>
+                    <div class="nav-bar-down" id="navbar4" >
+                        <div class="wrap">
+                            <div>
+                                <img class="firstimg" src="../img/小米手机/computer1.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/computer2.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/computer3.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/computer4.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/computer5.jpg"/>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" id="hezi">
                     <a>盒子</a>
+                    <div class="nav-bar-down" id="navbar5" >
+                        <div class="wrap">
+                            <div>
+                                <img class="firstimg" src="../img/小米手机/hezi1.png"/></div>
+                            <div>
+                                <img src="../img/小米手机/hezi2.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/hezi3.png" />
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/hezi4.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/hezi5.jpg"/>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" id="news">
                     <a>新品</a>
+                    <div class="nav-bar-down" id="navbar6" >
+                        <div class="wrap">
+                            <div>
+                                <img class="firstimg" src="../img/小米手机/xinping1.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/xinping2.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/xinping3.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/xinping4.png" />
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/xinping5.png"/>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" id="router">
                     <a>路由器</a>
+                    <div class="nav-bar-down" id="navbar7" >
+                        <div class="wrap">
+                            <div>
+                                <img class="firstimg" src="../img/小米手机/router1.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/router2.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/router3.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/router4.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/router5.jpg"/>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" id="hard">
                     <a>智能硬件服务</a>
+                    <div class="nav-bar-down" id="navbar8">
+                        <div class="wrap">
+                            <div>
+                                <img class="firstimg" src="../img/小米手机/hard1.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/hard2.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/hard3.png"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/hard4.jpg"/>
+                            </div>
+                            <div>
+                                <img src="../img/小米手机/hard5.jpg"/>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a>服务</a>
@@ -78,188 +233,1211 @@
                 </li>
             </ul>
             <div class="nav-bar-right wrap" id="navbar" style="display:none"  onmouseOver="navallOver()" onmouseout="navallOut()">
-                <ul>
-                    <li>
-                        <a>手机 电话卡</a>
-                    </li>
-                    <li>
-                        <a>电视 盒子</a>
-                    </li>
-                    <li>
-                        <a>笔记本</a>
-                    </li>
-                    <li>
-                        <a>智能 家居</a>
-                    </li>
-                    <li>
-                        <a>出行 儿童</a>
-                    </li>
-                    <li>
-                        <a>路由器 手机配件</a>
-                    </li>
-                    <li>
-                        <a>移动电源 插线板</a>
-                    </li>
-                    <li>
-                        <a>耳机 音响</a>
-                    </li>
-                    <li>
-                        <a>生活 米兔</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-bar-down" id="navbar1" style="display: none">
-                <div class="wrap">
-                    <div>
-                        <img class="firstimg" src="../img/小米手机/mix2320-220.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/note2320x220.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/xm6-320.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/max2_toubu.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/5x-2!160x110.jpg"/>
-                    </div>
+                <div class="view-category">
+                    <ul>
+                        <li class="nav-hover">
+                            <a href="views/mobilephone.html">手机 电话卡<i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-hover">
+                            <a href="views/TV.html">电视 盒子<i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-1.jpg"/>
+                                            <span>小米电视4A 32英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-2.jpg"/>
+                                            <span>小米电视4A 40英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-3.jpg"/>
+                                            <span>小米电视4A 43英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-4.jpg"/>
+                                            <span>小米电视4A 49英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-5.jpg"/>
+                                            <span>小米电视4A 50英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-6.jpg"/>
+                                            <span>小米电视4A 55英寸</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-1.jpg"/>
+                                            <span>小米电视4A 32英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-2.jpg"/>
+                                            <span>小米电视4A 40英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-3.jpg"/>
+                                            <span>小米电视4A 43英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-4.jpg"/>
+                                            <span>小米电视4A 49英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-5.jpg"/>
+                                            <span>小米电视4A 50英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-6.jpg"/>
+                                            <span>小米电视4A 55英寸</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-1.jpg"/>
+                                            <span>小米电视4A 32英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-2.jpg"/>
+                                            <span>小米电视4A 40英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-3.jpg"/>
+                                            <span>小米电视4A 43英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-4.jpg"/>
+                                            <span>小米电视4A 49英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-5.jpg"/>
+                                            <span>小米电视4A 50英寸</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/tv1-6.jpg"/>
+                                            <span>小米电视4A 55英寸</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-hover">
+                            <a href="views/computer.html">笔记本<i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-1.jpg"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-2.jpg"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-3.jpg"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-4.jpg"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-5.jpg"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-6.jpg"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-1.jpg"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-2.jpg"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-3.jpg"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-4.jpg"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-5.jpg"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-6.jpg"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-1.jpg"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-2.jpg"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-3.jpg"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-4.jpg"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-5.jpg"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/computer1-6.jpg"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-hover">
+                            <a href="views/Smart_Appliances.html">智能 家电<i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img//index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-hover">
+                            <a href="views/Healthy_home.html">健康 家居 <i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-hover">
+                            <a href="views/Travel_children.html ">出行 儿童<i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-hover">
+                            <a href="views/Router.html">路由器 手机配件 <i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-hover">
+                            <a href="views/power.html">移动电源 插线板<i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-hover">
+                            <a >耳机 音箱<i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-hover">
+                            <a>生活 米兔<i class="iconfont">&#xe602;</i></a>
+                            <div class="category-children">
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="children-list">
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/note1-1.png"/>
+                                            <span>小米Note 3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/min21-2.png"/>
+                                            <span>小米MIX 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/xm61-3.png"/>
+                                            <span>小米6</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/80pc1-4.png"/>
+                                            <span>小米5X</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/mix21-5.png"/>
+                                            <span>小米Max 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <img src="../img/index/nav-index/redmi51-6.png"/>
+                                            <span>红米5 Plus</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
-            <div class="nav-bar-down" id="navbar2" style="display: none">
-                <div class="wrap">
-                    <div>
-                        <img class="firstimg" src="../img/小米手机/5-320-220.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/5P-320-220.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/320-220-1.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/3205a.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/320-220!160x110.jpg"/>
-                    </div>
-                </div>
-            </div>
-            <div class="nav-bar-down" id="navbar3" style="display: none">
-                <div class="wrap">
-                    <div>
-                        <img class="firstimg" src="../img/小米手机/tv1.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/tv2.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/tv3.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/tv4.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/tv5.png"/>
-                    </div>
-                </div>
-            </div>
-            <div class="nav-bar-down" id="navbar4" style="display: none">
-                <div class="wrap">
-                    <div>
-                        <img src="../img/小米手机/computer1.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/computer2.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/computer3.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/computer4.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/computer5.jpg"/>
-                    </div>
-                </div>
-            </div>
-            <div class="nav-bar-down" id="navbar5" style="display: none">
-                <div class="wrap">
-                    <div>
-                        <img class="firstimg" src="../img/小米手机/hezi1.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/hezi2.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/hezi3.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/hezi4.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/hezi5.jpg"/>
-                    </div>
-                </div>
-            </div>
-            <div class="nav-bar-down" id="navbar6" style="display: none">
-                <div class="wrap">
-                    <div>
-                        <img class="firstimg" src="../img/小米手机/xinping1.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/xinping2.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/xinping3.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/xinping4.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/xinping5.png"/>
-                    </div>
-                </div>
-            </div>
-            <div class="nav-bar-down" id="navbar7" style="display: none">
-                <div class="wrap">
-                    <div>
-                        <img class="firstimg" src="../img/小米手机/router1.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/router2.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/router3.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/router4.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/router5.jpg"/>
-                    </div>
-                </div>
-            </div>
-            <div class="nav-bar-down" id="navbar8" style="display: none">
-                <div class="wrap">
-                    <div>
-                        <img class="firstimg" src="../img/小米手机/hard1.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/hard2.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/hard3.png"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/hard4.jpg"/>
-                    </div>
-                    <div>
-                        <img src="../img/小米手机/hard5.jpg"/>
-                    </div>
-                </div>
-            </div>
+
+
+
+
+
+
 
         </div>
         <div class="nav-search">
