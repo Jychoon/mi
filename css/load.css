@@ -2,26 +2,38 @@
 /*内容部分*/
 #secBody {
 	padding-top: 0px;
-	background: #fcfcfc;
+	background: url("../img/小米手机/account_BG.jpg") no-repeat center;
+	background-size:100% 588px;
 	padding-bottom: 30px;
 
 }
 .innerBody {
-	width: 980px;
+	width: 1226px;
 	margin: 0 auto;
 }
+.table-right{
+	width:450px;
+	background: #fff;
+}
 .tableWrap {
-	width: 330px;
+	width: 430px;
+	margin:auto;
+	height: 524px;
 	padding-top: 46px;
 }
+.tableTap{
+	margin:20px 0;
+	padding:20px 0;
+}
 .tableTap h3 {
-    font-size: 14px;
-    color: #666;
-    font-weight: bold;
+    font-size: 24px;
+    color:#ff6700;
+    font-weight: normal;
     line-height: 30px;
 }
 .tableTap a {
 	color: #06c;
+	font-size:20px;
     line-height: 30px;
 }
 .tableTap a:hover {
@@ -37,6 +49,7 @@
     border: 1px solid #dedede;
     background: #FFF;
     line-height: 24px;
+	width:316px;
 }
 .userHead {
 	width: 24px;
@@ -54,6 +67,9 @@
 	background-size: 100% 100%;
 	vertical-align: middle;
 }
+.tableTap{
+	width:330px;
+}
 .tableItem input {
 	vertical-align: middle;    
 	width: 230px;
@@ -69,6 +85,7 @@
 .tableAuto {
 	padding-top: 4px;
 	margin: 0 0 14px;
+	width:316px;
 }
 .tableAuto a {
 	color: #999;

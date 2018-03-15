@@ -93,7 +93,6 @@ ul li
 .layout {
     background-color: #fff;
     width: 854px;
-    margin: 0 auto 20px;
     margin-right: auto;
     margin-bottom: 20px;
     position: relative;
@@ -101,6 +100,12 @@ ul li
 }
 body {
     color: #757575;
+}
+.tableWrap-center{
+    margin:auto;
+    padding-left: 40px;
+    background: #fff;
+    height: 524px;
 }
 body {
     font-size: 14px;
@@ -266,7 +271,7 @@ body {
 }
 /*脚部*/
 .footer {
-    background: #9CF;
+    background: #fff;
     width: 100%;
     height: 32px;
     color:black;
@@ -274,10 +279,8 @@ body {
     letter-spacing: 1px;
     text-align: center;
     clear: both;
-    position: absolute;
     bottom: 0;
     left: 0;
-    background-color: white;
 }
 #list li{
 
