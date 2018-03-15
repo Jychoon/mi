@@ -25,9 +25,17 @@ $(document).ready(function(){
     );
 
 });
+/* $(document).ready(function () {
+    $(".shoping").click(function () {
+        $(".shopcar").show();
+
+    })
+    $("#shopclose").click(function () {
+        $(".shopcar").hide();
+    })
+})
 
 function changeImg(){
-    /*获取图片和索引的数组*/
     var $imgs=$("#ad_img li");
     var $nums=$("#ad_num li");
 
@@ -37,20 +45,19 @@ function changeImg(){
     $nums.eq(index).addClass("numsover");
     $nums.eq(index).siblings().removeClass("numsover");
     $imgs.eq(index).show();
-
-    /*鼠标悬停在数字上的事件*/
     $nums.mouseover(function(){
-        isStop=true;
+        isStop=true;*/
         /*先把数字的背景改了*/
+        /*
         $(this).addClass("numsover").siblings().removeClass("numsover");
 
         /*图片的索引和数字的索引是对应的，所以获取当前的数字的索引就可以获得图片，从而对图片进行操作*/
-        index=$nums.index(this);
+        /*index=$nums.index(this);
         $imgs.eq(index).show("slow");
         $imgs.eq(index).siblings().hide("slow");
     }).mouseout(function(){isStop=false});
     /*设置循环*/
-    $imgs.mouseover(function(){
+   /* $imgs.mouseover(function(){
         isStop=true;
     }).mouseout(function(){isStop=false});
     setInterval(function(){
@@ -125,3 +132,4 @@ function prev(list){
         $('.bot-img ul li').eq(index).addClass('active').siblings('li').removeClass('active')
     }
 }
+   */
