@@ -163,15 +163,15 @@ i.select2{
     height: 40px;
     line-height: 40px;
     display: inline-block;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(232, 232, 232);
     border-image: initial;
     float:right;
     width: 255px;
 }
 
 input.word{
+    outline: #ff6700;
+    width:255px;
+    height: 40px;
     border-width: 0px;
 }
 

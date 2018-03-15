@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>小米账号-登录</title>
-    <link rel="SHORTCUT ICON" href="../../Router/mi.png">
-    <link rel="stylesheet" href="../../../css/Account.css">
-    <link rel="stylesheet" href="../../../css/load.css">
-    <link rel="stylesheet" href="../../../css/base.css">
+    <link rel="SHORTCUT ICON" href="../img/Router/mi.png">
+    <link rel="stylesheet" href="../css/Account.css">
+    <link rel="stylesheet" href="../css/load.css">
+    <link rel="stylesheet" href="../css/base.css">
 </head>
 <body >
 <div class="h_panel">
     <div class="h_logo">
-        <a href="#" >小米网</a>
+        <a href="/mi/index.html" >小米网</a>
     </div>
 </div>
 <div class="bg">
@@ -28,7 +28,7 @@
                 <div class="tableItem">
                     <i class="userHead"></i>
                     <!--邮箱、以13、15、18开头的电话或者是2~4个汉字-->
-                    <input type="text" name="userName" placeholder="邮箱/手机/小米ID" required
+                    <input type="text" id="userName" placeholder="邮箱/手机/小米ID" required
                            pattern="[a-zA-Z0-9]{1,10}@[a-zA-Z0-9]{1,5}\.[a-zA-Z0-9]{1,5}|^1[3578]\d{9}$|^[\u4e00-\u9fa5]{2,4}$"/>
                 </div>
                 <div class="tableItem">
@@ -40,7 +40,7 @@
                     <a class="fr" href="#">忘记密码？</a>
                 </div>
                 <!--<button class="tableBtn">登录</button>-->
-                <input type="submit" class="tableBtn" value="登录"/>
+                <input type="submit" method="get" onclick="location.href='/mi/index.html?id=admin'" class="tableBtn" value="登录"/>
                 <h2 class="moreWeb">其他方式登录</h2>
                 <div class="outType cf">
                     <ul class="loadType cf">
