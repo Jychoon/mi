@@ -1,0 +1,298 @@
+.breadcrumbs {
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    background: #f5f5f5;
+    color: #616161;
+}
+div {
+    display: block;
+}
+.container {
+    width: 1226px;
+    *zoom: 1;
+    margin-right: auto;
+    margin-left: auto;
+}
+.breadcrumbs .sep {
+    margin: 0 0.5em;
+    color: #b0b0b0;
+}
+.sep, .ndash {
+    margin: 0 .25em;
+    font-family: sans-serif;
+}
+.compare-head {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    _zoom: 1;
+    color: #616161;
+    text-align: center;
+    display: none;
+}
+body {
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+}
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.compare-head.active {
+    display: block;
+}
+.compare-head img{
+    position: absolute;
+    z-index: 10;
+}
+.compare-head .title {
+    top:-10px;
+    left:750px;
+    text-align: center;
+
+    margin: 80px 0 0 0;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 36px;
+    z-index:12;
+}
+.compare-head .content {
+
+    top:100px;
+    left:780px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 20px;
+    z-index:12;
+}
+.compare-space {
+    background: #f5f5f5;
+}
+.compare-body {
+    position: absolute;
+    width: 1226px;
+    left: 50%;
+    margin-left: -613px;
+    top: 510px;
+    background: #f5f5f5;
+    z-index:15;
+}
+.container {
+    width: 1226px;
+    *zoom: 1;
+    margin-right: auto;
+    margin-left: auto;
+}
+.compare-body .list-phone {
+    padding-left: 48px;
+    padding-right: 48px;
+    background: #fff;
+}
+.compare-body .body-nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #424242;
+    line-height: 28px;
+}
+a {
+    color: #757575;
+    text-decoration: none;
+}
+.compare-body .sep {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+.sep, .ndash {
+    margin: 0 .25em;
+    font-family: sans-serif;
+}
+.compare-body .column-5 {
+    text-align: left;
+}
+.compare-body .body-table {
+    display: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.compare-body .column-5 .column-title {
+    width: 100px;
+    padding-right: 0px;
+}
+.compare-body .body-table th, .compare-body .body-table td {
+    border-top: 1px solid #e0e0e0;
+}
+.compare-body th {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.compare-body .column-5 .phone-main {
+    width: 196px;
+}
+.compare-body .body-table .phone-main {
+    width: 220px;
+    text-align: center;
+}
+.compare-body th .title {
+    font-size: 22px;
+    color: #333;
+    line-height: 25px;
+}
+.compare-body h1, .compare-body h2, .compare-body h3, .compare-body ul, .compare-body p {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-weight: normal;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+.compare-body th .content {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #616161;
+    line-height: 20px;
+    height: 40px;
+}
+.compare-body h1, .compare-body h2, .compare-body h3, .compare-body ul, .compare-body p {
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-weight: normal;
+}
+p, pre {
+    margin: 1em 0;
+}
+.compare-body th .price {
+    font-size: 14px;
+    color: #ff6700;
+    line-height: 25px;
+    height: 75px;
+}
+.compare-body h1, .compare-body h2, .compare-body h3, .compare-body ul, .compare-body p {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-weight: normal;
+}
+p, pre {
+    margin: 1em 0;
+}
+.compare-body th .img img {
+    height: 175px;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+.compare-body th .btns {
+    margin-top: 30px;
+}
+.compare-body h1, .compare-body h2, .compare-body h3, .compare-body ul, .compare-body p {
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-weight: normal;
+}
+p, pre {
+    margin: 1em 0;
+}
+.btn-line-primary {
+    border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+.btn {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 158px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    border-top-color: rgb(176, 176, 176);
+    border-right-color: rgb(176, 176, 176);
+    border-bottom-color: rgb(176, 176, 176);
+    border-left-color: rgb(176, 176, 176);
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    color: #b0b0b0;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+a {
+    color: #757575;
+    text-decoration: none;
+}
+.compare-body .column-5 .column-title {
+    width: 100px;
+    padding-right: 0px;
+}
+.compare-body .column-5 td {
+    width: 196px;
+    padding-right: 10px;
+}
+.compare-body .body-table td {
+    font-size: 14px;
+    color: #616161;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    vertical-align: top;
+}
+.compare-body .body-table th, .compare-body .body-table td {
+    border-top: 1px solid #e0e0e0;
+}
+.compare-body .icon-color-1 {
+    background-position: -28px 0;
+}
+.compare-body .icon-color-5 {
+    background-position: -140px 0;
+}
+.compare-body .icon-color-8 {
+    background-position: -224px 0;
+}
+.compare-body .icon-color-9 {
+    background-position: -252px 0;
+}
+.compare-body .icon-color-0 {
+    background-position: 0px 0;
+}
+
+.compare-body .icon-color {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 28px;
+    height: 28px;
+    background-image: url("../img/对比手机/icon-colors.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    _zoom: 1;
+}
+.compare-body .body-table td b {
+    font-size: 16px;
+    color: #333;
+}
+
+
+.compare-body .body-table.active {
+    display: block;
+}
+.compare-body .body-nav .active {
+    color: #ff6700;
+}
