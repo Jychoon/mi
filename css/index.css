@@ -25,38 +25,7 @@
 .layui-carousel-ind ul{
     margin-left: 100px;
 }
-.home-category{
-    display: block;
-    top:0;
-    width: 234px;
-    height:420px;
-    border:0;
-    font-size:14px;
-    position: absolute;
-    z-index:11;
-}
-.home-category ul{
-    height: 420px;
-    color:#fff;
-    margin:auto;
-    padding:20px 0;
-    background: rgba(0,0,0,0.6);
-}
-.home-category ul a{
-    color:#fff;
-    display: block;
-    padding-left: 30px;
-    height: 42px;
-    line-height: 42px;
-}
-.home-category ul a:hover{
-    background-color: #ff6700;
-}
-.home-category ul .iconfont{
-    font-size:12px;
-    float: right;
-    margin-right: 20px;
-}
+
 .home-hero-sub{
     margin-top:14px;
     height: 170px;
@@ -128,6 +97,75 @@
     height: 176px;
     float: left;
     margin-left:10px;
+}
+.home-category{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index:21;
+    width: 234px;
+    height: 460px;
+    font-size:14px;
+}
+.home-category ul{
+    height: 420px;
+    color:#fff;
+    background: rgba(0,0,0,0.6);
+    padding:20px 0;
+    margin: 0;
+}
+.home-category ul a{
+    color:#fff;
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+}
+.home-category ul li:hover{
+    background:#ff6700;
+    color:#fff;
+}
+.home-category ul .category-children li:hover{
+    background-color: #fff;
+}
+.home-category ul .category-children span:hover{
+    color:#ff6700;
+}
+.home-category .category-children{
+    position: absolute;
+    left:234px;
+    width:795px;
+    top:0;
+    z-index:24;
+    height: 458px;
+    border:1px solid #e0e0e0;
+}
+.home-category .category-children ul{
+    height: 458px;
+    margin:0;
+    padding:2px 0;
+    float: left;
+    background: #fff;
+}
+.home-category .category-children ul li{
+    width:265px;
+    height:76px;
+}
+.home-category .category-children ul li img{
+    height: 40px;
+    width:40px;
+}
+.home-category .category-children ul li a{
+    display: block;
+    padding: 18px 20px;
+    ling-height: 40px;
+    color:#333;
+}
+.home-category i{
+    float: right;
+    margin-right: 20px;
 }
 .flashPurchase{
     display: block;

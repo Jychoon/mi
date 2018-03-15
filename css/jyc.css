@@ -161,6 +161,12 @@ a:hover{
     padding:10px 40px;
     border-left: 1px solid #D3D4D3;
 }
+.nav-item .nav-bar-down{
+    display: none;
+}
+.nav-item:hover .nav-bar-down{
+    display: block;
+}
 .nav-bar-down .firstimg{
     border-left: none;
 }
@@ -168,6 +174,12 @@ a:hover{
     float:right;
     margin-top:25px;
     width:297px;
+}
+.nav-hover .category-children{
+    display: none;
+}
+.nav-hover:hover .category-children{
+    display: block;
 }
 .search-text{
     width:223px;
@@ -458,4 +470,72 @@ a:hover{
     width:267px;
     height:19px;
     background:url("../img/小米手机/slogan2016.png") no-repeat center 0;
+}
+.view-category{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index:21;
+    width: 234px;
+    height: 460px;
+    font-size:14px;
+}
+.view-category ul{
+    height: 420px;
+    color:#fff;
+    padding:0;
+    margin: 0;
+}
+.view-category ul a{
+    color:#333;
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+}
+.view-category ul li:hover{
+    background:#ff6700;
+    color:#fff;
+}
+.view-category ul .category-children li:hover{
+    background-color: #fff;
+}
+.view-category ul .category-children span:hover{
+    color:#ff6700;
+}
+.view-category .category-children{
+    position: absolute;
+    left:234px;
+    width:795px;
+    top:0;
+    z-index:24;
+    height: 458px;
+    border:1px solid #e0e0e0;
+}
+.view-category .category-children ul{
+    height: 458px;
+    margin:0;
+    padding:2px 0;
+    float: left;
+    background: #fff;
+}
+.view-category .category-children ul li{
+    width:265px;
+    height:76px;
+}
+.view-category .category-children ul li img{
+    height: 40px;
+    width:40px;
+}
+.view-category .category-children ul li a{
+    display: block;
+    padding: 18px 20px;
+    ling-height: 40px;
+    color:#333;
+}
+.view-category i{
+    float: right;
+    margin-right: 20px;
 }
