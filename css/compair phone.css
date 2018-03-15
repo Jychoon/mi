@@ -1,3 +1,16 @@
+#box img:hover {
+    -moz-transform: rotate(360deg) scale(1.5);
+    -webkit-transform: rotate(360deg) scale(1.5);
+    -o-transform: rotate(360deg) scale(1.5);
+    -ms-transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.5);
+}
+#box img {
+    -moz-transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
 .breadcrumbs {
     height: 40px;
     font-size: 12px;
@@ -41,6 +54,9 @@ html, button, input, select, textarea {
 html {
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
+}
+element.style {
+    background: url(//c1.mifile.cn/f/i/17/compare/cp-1-new.jpg) no-repeat center center;
 }
 .compare-head.active {
     display: block;

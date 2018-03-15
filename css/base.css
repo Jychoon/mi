@@ -1,0 +1,160 @@
+/* 重置样式 */
+body,html,ul,ol,li,h1,h2,h3,h4,h5,h6,p {
+	padding: 0;
+	margin: 0;
+	font: 12px Arial,Helvetica,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { 
+	font-weight: normal; 
+}
+li { 
+	list-style: none; 
+}
+a { 
+	text-decoration: none; 
+}
+img { 
+	vertical-align: top;
+	color:#999;
+	font-size:14px; 
+}
+.fl { 
+	float: left; 
+}
+.f2{
+	margin-left: -300px;
+}
+
+.fr { 
+	float: right; 
+}
+.cf:before, .cf:after { 
+	display: table; 
+	content: " "; 
+}
+.cf:after { 
+	clear: both; 
+}
+.cf {
+	*zoom: 1; 
+}
+
+/*公共部分*/
+body {
+	background: #fcfcfc;
+}
+/*head部分*/
+#headNav {
+	padding: 16px;
+	background: #FFF;
+	border-bottom: 1px solid #e1e1e1;
+	box-shadow: 0px 0px 10px #ccc;
+}
+.innerNav {
+	margin: 0 auto;
+	width: 1226px;
+	position: relative;
+}
+#headNav img {
+	display: block;
+	height: 55px;
+	width: auto;
+}
+.headFont span,.headFont a {
+	line-height: 18px;
+	font-family: "SimSun";
+	font-size: 12px;
+	color: #999;
+	vertical-align: middle;
+}
+.headFont span a {
+	color: #06c;
+}
+.headFont span a:hover {
+	color: #f60;
+}
+.headFont>a {
+	margin-left: 25px;
+	color: #E60012;
+}
+.headFont>a {
+	margin-left: 25px;
+	color: #333;
+}
+
+.runbun,.turnb {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin: 0 4px;
+}
+.runbun {
+	background: url(../img/Router/runbun.png) no-repeat;
+	background-size: 100% 100%;
+}
+.turnb {
+	background: url(../img/Router/turnb.png) no-repeat;
+	background-size: 100% 100%;
+}
+.helpLink {
+	color: #333;
+	font-size: 12px;
+}
+.helpLink:hover {
+	color: #E60012;
+}
+.outHelp {
+	position: absolute;
+	top: -4px;
+	right: 0;
+	width: 98px;
+	padding-top: 25px;
+	border: 1px solid #CCC;
+}
+.helpYou {
+	background: #fff;
+}
+.helpYou li a {
+	height: 24px;
+	display: block;
+	padding-left: 25px;
+	border-top: 1px dotted #e4e4e4;
+	background: #FFF;
+	line-height: 24px;
+	color: #333;
+}
+.helpYou li a:hover {
+	color: #E60012;
+}
+/*按钮*/
+.tableBtn {
+	width: 330px;
+	height: 52px;
+	border: 0 none;
+	border-radius: 3px;
+	background: #ff3c3c;
+	font-size: 16px;
+	color: #FFF;
+	cursor: pointer;
+	text-shadow: 1px 1px 1px #ff7373;
+	font-family: "Microsoft YaHei";
+	line-height: 52px;
+}
+/*foot部分*/
+#footNav {
+	width: 980px;
+	margin: 20px auto 0;
+	text-align: center;
+}
+#footNav p {
+	margin-top: 10px;
+	color: #333;
+}
+#footNav p a {
+	padding: 0 6px;
+	color: #333;
+}
+#footNav p a:hover {
+	color: #c00;
+}

@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--jyc-->
+<head>
+    <meta charset="UTF-8">
+    <title>小米智能家居</title>
+    <link rel="icon" href="../../小米手机/logo-footer.png" type="image/gif" >
+    <link rel="stylesheet" href="../../../css/layui/css/layui.css">
+    <link href="../../../css/jyc.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../../../css/iconfont.css">
+    <script src="../../../css/layui/layui.js"></script>
+    <script src="../../../js/jquery-3.3.1.js"></script>
+    <script src="../../../js/jyc.js"></script>
+    <link rel="stylesheet" href="../../../css/qcz.css">
+
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="topbar">
+        <div class="wrap">
+            <div class="topbar-left">
+                <a >小米商城</a><span >|</span>
+                <a>MIUI</a><span>|</span>
+                <a>loT</a><span>|</span>
+                <a>云服务</a><span>|</span>
+                <a>水滴</a><span>|</span>
+                <a>金融</a><span>|</span>
+                <a>有品</a><span>|</span>
+                <a>Select Region</a>
+            </div>
+            <div class="topbar-right">
+                <a>登录</a><span>|</span>
+                <a>注册</a><span>|</span>
+                <a>消息通知</a><span>|</span>
+                <div id="topbar-cart" >
+                    <a  >
+                        <i class="iconfont">&#xe600;</i>购物车</a>
+                </div>
+                <div class="loading" id="load" style="display:none">购物车中还没有商品，赶紧选购吧！</div>
+            </div>
+        </div>
+    </div>
+    <div class="nav wrap">
+        <div class="nav-logo">
+            <ul id="box">  <a href="../../../index.html"><img src="../../小米手机/mi-logo.png"></a> </ul>
+        </div>
+        <div class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-category" id="nav-all">
+                    <a>全部商品分类</a>
+                </li>
+                <li class="nav-item" id="phone">
+                    <a>小米手机</a>
+                </li>
+                <li class="nav-item" id="hongmi">
+                    <a>红米</a>
+                </li>
+                <li class="nav-item" id="tv">
+                    <a>电视</a>
+                </li>
+                <li class="nav-item" id="computer">
+                    <a>笔记本</a>
+                </li>
+                <li class="nav-item" id="hezi">
+                    <a>盒子</a>
+                </li>
+                <li class="nav-item" id="news">
+                    <a>新品</a>
+                </li>
+                <li class="nav-item" id="router">
+                    <a>路由器</a>
+                </li>
+                <li class="nav-item" id="hard">
+                    <a>智能硬件服务</a>
+                </li>
+                <li class="nav-item">
+                    <a>服务</a>
+                </li>
+                <li class="nav-item">
+                    <a>社区</a>
+                </li>
+            </ul>
+            <div class="nav-bar-right wrap" id="navbar"style="display:none">
+                <ul>
+                    <li>
+                        <a>手机 电话卡</a>
+                    </li>
+                    <li>
+                        <a>电视 盒子</a>
+                    </li>
+                    <li>
+                        <a>笔记本</a>
+                    </li>
+                    <li>
+                        <a>智能 家居</a>
+                    </li>
+                    <li>
+                        <a>出行 儿童</a>
+                    </li>
+                    <li>
+                        <a>路由器 手机配件</a>
+                    </li>
+                    <li>
+                        <a>移动电源 插线板</a>
+                    </li>
+                    <li>
+                        <a>耳机 音响</a>
+                    </li>
+                    <li>
+                        <a>生活 米兔</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-bar-down" id="navbar1" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../../小米手机/mix2320-220.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/note2320x220.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/xm6-320.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/max2_toubu.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/5x-2!160x110.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar2" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img  class="firstimg" src="../../小米手机/5-320-220.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/5P-320-220.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/320-220-1.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/3205a.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/320-220!160x110.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar3" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../../小米手机/tv1.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/tv2.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/tv3.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/tv4.png" />
+                    </div>
+                    <div>
+                        <img src="../../小米手机/tv5.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar4" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../../小米手机/computer1.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/computer2.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/computer3.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/computer4.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/computer5.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar5" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../../小米手机/hezi1.png"/></div>
+                    <div>
+                        <img src="../../小米手机/hezi2.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/hezi3.png" />
+                    </div>
+                    <div>
+                        <img src="../../小米手机/hezi4.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/hezi5.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar6" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../../小米手机/xinping1.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/xinping2.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/xinping3.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/xinping4.png" />
+                    </div>
+                    <div>
+                        <img src="../../小米手机/xinping5.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar7" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../../小米手机/router1.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/router2.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/router3.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/router4.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/router5.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-down" id="navbar8" style="display: none">
+                <div class="wrap">
+                    <div>
+                        <img class="firstimg" src="../../小米手机/hard1.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/hard2.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/hard3.png"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/hard4.jpg"/>
+                    </div>
+                    <div>
+                        <img src="../../小米手机/hard5.jpg"/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-search">
+            <form>
+                <input class="search-text" type="text">
+                <input class="iconfont search-btn " type="submit" value="&#xe7b7;">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<!--主体-->
+<div class="main">
+    <div class="layui-carousel" id="carouse">
+        <div carousel-item>
+            <div><img src="../../智能家居/智能台灯.jpg" /></div>
+            <div><img src="../../智能家居/智能摄像机.jpg" /></div>
+        </div>
+    </div>
+    <div class="title">
+        <h2>智能家居</h2>
+    </div>
+    <div class="product-1 wrap shadow">
+        <a >
+            <img src="../../智能家居/小白智能摄像机.jpg" />
+            <div class="content">
+                <h1>米家小白智能摄像机</h1>
+                <p class="desc">360度1080P全方位拍摄，语音控制米家智能设备</p>
+                <p class="price"><strong>399</strong>元</p>
+                <p class="link">了解产品></p>
+            </div>
+        </a>
+    </div>
+    <div class="wrap" style="height: 14px;"></div>
+    <div class="wrap product-2">
+        <div class="product-2-left shadow">
+            <a >
+                <img src="../../智能家居/米家智能摄像机.jpg"/>
+                <div class="content">
+                    <h1>米家智能摄像机1080P</h1>
+                    <p class="desc">随时看护家的温暖和安全</p>
+                    <p class="price"><strong>199</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-2-right shadow">
+            <a >
+                <img src="../../智能家居/小方智能摄像机.jpg"/>
+                <div class="content">
+                    <h1>小方智能摄像机</h1>
+                    <p class="desc">1080P清晰画质，安全看家</p>
+                    <p class="price"><strong>1299</strong>元起</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="wrap" style="height: 14px;"></div>
+    <div class="wrap product-2">
+        <div class="product-2-left shadow">
+            <a >
+                <img src="../../智能家居/米家智能家庭套装.jpg" />
+                <div class="content">
+                    <h1>米家智能家庭套装</h1>
+                    <p class="desc">实时感应门窗开关状态</p>
+                    <p class="price"><strong>329</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-2-right shadow">
+            <a >
+                <img src="../../智能家居/米家温湿度传感器.jpg" />
+                <div class="content">
+                    <h1>米家温湿度传感器</h1>
+                    <p class="desc">智能联动，改善室内温度</p>
+                    <p class="price"><strong>49</strong>元</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--智能家居部分已完成-->
+
+
+    <div class="title">
+        <h2>智能照明</h2>
+    </div>
+    <div class="product-1 wrap shadow">
+        <a ><img src="../../智能家居/台灯二代.jpg" />
+            <div class="content">
+                <h1>米家飞利浦台灯智睿二代</h1>
+                <p class="desc">飞利浦护眼算法，阅览室级大范围照明</p>
+                <p class="price"><strong>199</strong>元</p>
+                <p class="link">了解产品></p>
+            </div>
+        </a>
+    </div>
+
+    <div class="wrap" style="height: 14px;"></div>
+    <div class="wrap product-2">
+        <div class="product-2-left shadow">
+            <a ><img src="../../智能家居/米家床头灯.jpg"/>
+                <div class="content">
+                    <h1>米家床头灯</h1>
+                    <p class="desc">如梦如幻，多彩光世界</p>
+                    <p class="price"><strong>249</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-2-right shadow">
+            <a ><img src="../../智能家居/米家感应灯.jpg"/>
+                <div class="content">
+                    <h1>米家感应夜灯</h1>
+                    <p class="desc">举步之间，光明立现</p>
+                    <p class="price"><strong>49</strong>元</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="wrap" style="height: 14px;"></div>
+    <div class="wrap product-2">
+        <div class="product-2-left shadow">
+            <a ><img src="../../智能家居/米家飞利浦吸顶灯.jpg"/>
+                <div class="content">
+                    <h1>米家飞利浦智睿吸顶灯</h1>
+                    <p class="desc">实时感应门窗开关状态</p>
+                    <p class="price"><strong>349</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-2-right shadow">
+            <a ><img src="../../智能家居/智能LED吸顶灯.jpg"/>
+                <div class="content">
+                    <h1>智能LED吸顶灯</h1>
+                    <p class="desc">场景联动，好光好自然</p>
+                    <p class="price"><strong>379</strong>元</p>
+                </div>
+            </a>
+        </div>
+    </div>
+<!--智能照明部分已完成-->
+
+
+    <div class="title">
+        <h2>健康生活</h2>
+    </div>
+    <div class="product-1 wrap shadow">
+        <a ><img src="../../智能家居/MIband.jpg" height="868" width="1708"/>
+            <div class="content">
+                <h1>小米手环2</h1>
+                <p class="desc">OLED显示屏，触摸操作，升级计步算法</p>
+                <p class="price"><strong>149</strong>元</p>
+                <p class="link">了解产品></p>
+            </div>
+        </a>
+    </div>
+
+    <div class="wrap" style="height: 14px;"></div>
+    <div class="wrap product-2">
+        <div class="product-2-left shadow">
+            <a ><img src="../../智能家居/weight%20with%20people.jpg" />
+                <div class="content">
+                    <h1>小米体脂秤</h1>
+                    <p class="desc">简约纤薄精准掌握身体数据</p>
+                    <p class="price"><strong>199</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-2-right shadow">
+            <a ><img src="../../智能家居/weight.jpg"/>
+                <div class="content">
+                    <h1>小米体重秤</h1>
+                    <p class="desc">高精度压力传感器</p>
+                    <p class="price"><strong>99</strong>元</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="wrap" style="height: 14px;"></div>
+    <div class="wrap product-2">
+        <div class="product-2-left shadow">
+            <a ><img src="../../智能家居/ihealth.jpg"/>
+                <div class="content">
+                    <h1>Ihealth体温计</h1>
+                    <p class="desc">一按就能测体温</p>
+                    <p class="price"><strong>129</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-2-right shadow">
+            <a ><img src="../../智能家居/brush%20tooth.jpg"/>
+                <div class="content">
+                    <h1>米家声波电动牙刷</h1>
+                    <p class="desc">高效动力，刷的干净</p>
+                    <p class="price"><strong>379</strong>元</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--健康生活部分已完成-->
+
+    <div class="title">
+        <h2>好物推荐</h2>
+    </div>
+    <div class="product-1 wrap shadow">
+        <a ><img src="../../智能家居/MIwatch.jpg"/>
+            <div class="content">
+                <h1>米动手表青春版</h1>
+                <p class="desc">4种运动模式，满足你的各种运动需求</p>
+                <p class="price"><strong>399</strong>元</p>
+                <p class="link">了解产品></p>
+            </div>
+        </a>
+    </div>
+
+    <div class="wrap" style="height: 14px;"></div>
+    <div class="wrap product-2">
+        <div class="product-2-left shadow">
+            <a ><img src="../../智能家居/Sportwatch.jpg"/>
+                <div class="content">
+                    <h1>AMAZFIT运动手表</h1>
+                    <p class="desc">扔掉手机去跑步</p>
+                    <p class="price"><strong>799</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-2-right shadow">
+            <a ><img src="../../智能家居/handband.jpg"/>
+                <div class="content">
+                    <h1>AMAZFIT手环</h1>
+                    <p class="desc">科技与时尚的完美结合</p>
+                    <p class="price"><strong>299</strong>元</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="wrap" style="height: 14px;"></div>
+    <div class="wrap product-2">
+        <div class="product-2-left shadow">
+            <a ><img src="../../智能家居/AI插座.jpg"/>
+                <div class="content">
+                    <h1>米家智能插座（Zigbee版）</h1>
+                    <p class="desc">超智能的插座</p>
+                    <p class="price"><strong>69</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-2-right shadow">
+            <a ><img src="../../智能家居/Netcontroller.jpg"/>
+                <div class="content">
+                    <h1>米家多功能网关</h1>
+                    <p class="desc">米家智能配件控制中心</p>
+                    <p class="price"><strong>149</strong>元</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--好物推荐部分已完成-->
+
+
+    <div class="wrap" style="height: 14px;"></div>
+    <div class="wrap product-3">
+        <div class="product-3-left wrap shadow">
+            <a ><img src="../../智能家居/烟雾报警器.jpg" height="720" width="1080"/>
+                <div class="content">
+                    <h1>烟雾报警器</h1>
+                    <p class="desc">长效安全，精工品质</p>
+                    <p class="price"><strong>149</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-3-middle wrap shadow">
+            <a ><img src="../../智能家居/天然气报警器.jpg" height="720" width="1080"/>
+                <div class="content">
+                    <h1>天然气报警器</h1>
+                    <p class="desc">安全保障持续“在线”</p>
+                    <p class="price"><strong>199</strong>元</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-3-right wrap shadow">
+            <a >
+                <img src="../../智能家居/米家空调伴侣.jpg" height="720" width="1080"/>
+                <div class="content">
+                    <h1>米家空调伴侣</h1>
+                    <p class="desc">让传统空调秒变智能</p>
+                    <p class="price"><strong>169</strong>元 </p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+<!--底部导航菜单栏-->
+<div class="clear"></div>
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-service">
+            <ul>
+                <li><a><i class="iconfont">&#xe715;</i>预约维修服务</a></li>
+                <li><a><i class="iconfont">&#xe67d;</i>7天无理由退货</a></li>
+                <li><a><i class="iconfont">&#xe639;</i>15天免费换货</a></li>
+                <li><a><i class="iconfont">&#xe608;</i>满150元包邮</a></li>
+                <li><a><i class="iconfont">&#xe613;</i>520余家售后网点</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <dl>
+                <dt>帮助中心</dt>
+                <dd>账户管理</dd>
+                <dd>购物指南</dd>
+                <dd>订单操作</dd>
+            </dl>
+            <dl>
+                <dt>服务支持</dt>
+                <dd>售后政策</dd>
+                <dd>自助服务</dd>
+                <dd>相关下载</dd>
+            </dl>
+            <dl>
+                <dt>线下门店</dt>
+                <dd>小米之家</dd>
+                <dd>服务网点</dd>
+                <dd>零售网点</dd>
+            </dl>
+            <dl>
+                <dt>关于小米</dt>
+                <dd>了解小米</dd>
+                <dd>加入小米</dd>
+                <dd>联系我们</dd>
+            </dl>
+            <dl>
+                <dt>关注我们</dt>
+                <dd>新浪微博</dd>
+                <dd>小米部落</dd>
+                <dd>官方微信</dd>
+            </dl>
+            <dl>
+                <dt>特色服务</dt>
+                <dd>F 码通道</dd>
+                <dd>礼物码</dd>
+                <dd>防伪查询</dd>
+            </dl>
+            <div class="footer-contact">
+                <p class="phone">400-100-5678</p>
+                <p >周一至周日 8:00-18:00<br>（仅收市话费）</p>
+                <a class="footer-btn"> 在线客服</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="site-info">
+    <div class="wrap">
+        <div class="logo"><img src="../../小米手机/logo-footer.png"/></div>
+        <div class="site-text">
+            <p class="sites">
+                <a>小米商城</a><span>|</span>
+                <a>MIUI</a><span>|</span>
+                <a>米家</a><span>|</span>
+                <a>米聊</a><span>|</span>
+                <a>多看</a><span>|</span>
+                <a>路由器</a><span>|</span>
+                <a>米粉卡</a><span>|</span>
+                <a>小米天猫店</a><span>|</span>
+                <a>隐私政策</a><span>|</span>
+                <a>问题反馈</a><span>|</span>
+                <a>Select Region</a><span>|</span>
+            </p>
+            <p>@<a>mi.com</a>" 京ICP证110507号 "<a>京ICP备10046444号</a><a>京公网安备11010802020134号 </a>
+                <a>京网文[2014]0059-0009号</a>
+                <br>
+                " 违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试"
+            </p>
+        </div>
+        <div class="site-links">
+            <a><img src="../../小米手机/truste.png"/></a>
+            <a><img src="../../小米手机/v-logo-2.png"/></a>
+            <a><img src="../../小米手机/v-logo-1.png"/></a>
+            <a><img src="../../小米手机/v-logo-3.png"/></a>
+            <a><img src="../../小米手机/v-logo-4.png" height="28" width="85"/></a>
+        </div>
+        <div class="clear"></div>
+        <div class="slogan"></div>
+    </div>
+
+</div>
+<script>
+    layui.use('carousel', function(){
+        var carousel = layui.carousel;
+        //建造实例
+        carousel.render({
+            elem: '#carouse'
+            ,width: '100%' //设置容器宽度
+            ,height: '620px'
+            ,arrow: 'always' //始终显示箭头
+            //,anim: 'updown' //切换动画方式
+
+        });
+    });
+</script>
+</body>
+</html>
