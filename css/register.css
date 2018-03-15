@@ -1,0 +1,247 @@
+body {
+    overflow-y: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #f9f9f9;
+    color: #666;
+}
+
+body {
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.milogo {
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    cursor: default;
+}
+
+h3.tit-mi{
+    font-size: 30px;
+    font-weight: normal;
+    color: #333;
+    line-height: 1;
+    margin:5px;
+    text-align: center;
+}
+
+.main2{
+    padding-bottom: 30px;
+    border: none;
+    border-radius: 0;
+    padding-top: 0;
+}
+.main1{
+    background: #fff;
+    padding: 34px 34px 0;
+    min-height: 200px;
+    margin:0px;
+}
+
+.z-main{
+    line-height: 20px;
+    width: 332px;
+    padding: 5px 0;
+    line-height: 20px;
+    margin: 0 auto;
+}
+h5.c-country{
+    font-size:15px;
+    padding:0px 0;
+    margin:0px;
+    font-weight: normal;
+}
+
+.r-box{
+    height: 40px;
+    padding-left: 14px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+}
+
+.r-box-m{
+    float: left;
+    width: 315px;
+    border-right: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+    padding: 0;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    line-height:90%
+}
+
+.r-box-m-w{
+    float:left;
+}
+.select{
+    float: right;
+    background: url("../img/出行儿童/icon_user (1).png");
+    width: 16px;
+    height: 16px;
+    margin: 11px 15px 0 12px;
+}
+
+.explain{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+h4.phone-e{
+    padding-bottom: 5px;
+    color: #333;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.phone-m{
+    width: 54px;
+    text-align: center;
+    padding: 0 9px;
+    height: 40px;
+    padding-left: 10px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #e8e8e8;
+    color: #555;
+    cursor: pointer;
+    float:left;
+}
+.phone-b3{
+    zoom: 1;
+}
+
+p.phone-h{
+    border-right: 0 none;
+    float: left;
+    width: 30px;
+    border-right: 1px solid #e8e8e8;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+}
+
+i.select2{
+    float: right;
+    margin: 17px 0 0 10px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #9d9d9d transparent transparent transparent;
+}
+.input-b{
+    float: right;
+    padding-bottom: 15px;
+    width:255px;
+}
+
+.label-b{
+    margin-left: -1px;
+    position: relative;
+    z-index: 3;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    float:right;
+    width: 255px;
+}
+
+input.word{
+    border-width: 0px;
+}
+
+.submit-1{
+    background-color: rgb(255, 103, 0);
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(186, 186, 186, 0.3);
+    border-image: initial;
+    width:330px;
+    height: 45px;
+}
+
+
+.select3{
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/出行儿童/icon_user (1).png");
+    float: left;
+
+}
+
+.footer-1{
+    text-align: center;
+    padding:5px;
+    margin: 20px;
+}
+
+.footer-1-m{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 0px;
+}
+.agreement-t{
+    font-weight: bold;
+}
+
+.agreement-y{
+    font-weight: bold;
+}
+
+.s-language{
+    width: 1250px;
+    height: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+.s-language-a{
+    text-align: center;
+}
+li {
+    width: 80px;
+    height: 19px;
+    margin: 0;
+    padding: 0;
+    text-align: -webkit-match-parent;
+    list-style: none;
+    border: 0;
+    text-align: center;
+}
+
+.nf-intro{
+    text-align: center;
+    margin: 20px;
+}
