@@ -134,4 +134,9 @@ table th div{display:none; position: absolute; left: 0px; top:43px;}
 .bot-img ul li:last-child{
     margin-right: 0;
 }
+.shopcar
+{
+    display: none;
+    position:fixed; *position:absolute; width:800px; height:600px; top:30%; left:20%; margin:0;
+}
 
