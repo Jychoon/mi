@@ -8,24 +8,49 @@
 .container {
     width: 1226px;
     margin-right: auto;
-    margin-left: auto;
+
 
 }
+h4{
+    margin-left: 75px;
+}
+h1{
+    font-size: 30px;
+    font-family: 微软雅黑;
+font-weight:normal;
+}
 .main{
-    background-color: #dedede;
+    color: #616161;
+    background-color:#f5f5f5;
+    font-size: 12px;
+}
+.row{
+    width:1240px;
+    height:1200px;
+    background-color:#f5f5f5;
 }
 .row-left{
+    float:left;
     margin-left: 50px;
     width: 234px;
     background-color:#fff;
 }
 .title{
-    font-family: "Adobe 黑体 Std R";
-    margin-left: 25px;
-}
-row-center {
-    background-color:#fff;
 
+    margin-left: 40px;
+}
+.box-bd li {
+    list-style-type:none;
+    line-height:40px;
+
+
+}
+
+.row-center{
+    float: right;
+    background-color:#fff;
+    width:800px;
+    height:303px;
 }
 
 
