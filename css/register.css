@@ -192,7 +192,7 @@ input.word{
     width: 17px;
     height: 17px;
     margin-right: 5px;
-    margin-top: -4px;
+    margin-top: 0px;
     display: inline-block;
     vertical-align: middle;
     background: url("../img/出行儿童/icon_user (1).png");
@@ -202,7 +202,8 @@ input.word{
 
 .footer-1{
     text-align: center;
-    padding:5px
+    padding:5px;
+    margin: 20px;
 }
 
 .footer-1-m{
@@ -219,10 +220,11 @@ input.word{
 }
 
 .s-language{
-    width: 1280px;
+    width: 1250px;
     height: 30px;
     line-height: 40px;
     text-align: center;
+    margin: 20px;
 }
 
 .s-language-a{
@@ -241,4 +243,5 @@ li {
 
 .nf-intro{
     text-align: center;
+    margin: 20px;
 }
