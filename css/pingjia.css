@@ -15,6 +15,7 @@ h4{
     margin-left: 75px;
 }
 h1{
+    margin-left: 50px;
     font-size: 30px;
     font-family: 微软雅黑;
 font-weight:normal;
@@ -42,15 +43,55 @@ font-weight:normal;
 .box-bd li {
     list-style-type:none;
     line-height:40px;
-
-
 }
 
 .row-center{
     float: right;
     background-color:#fff;
-    width:800px;
-    height:303px;
+    width:900px;
+    height:250px;
+}
+.pingjia{
+    border-bottom: #dedede;
+
+}
+.box-hd .filter-list {
+    float: left;
+    margin: 0;
+    padding: 18px 0;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.25;
+
+}
+.filter-list li{
+    float:left;
+    list-style: none;
+    border-bottom:1px solid #9F9F9F;
+    width: 200px;
+}
+.filter-list li a{
+    font-size: 16px;
+    margin:auto;
+    display: block;
+    margin:20px 0px;
+    padding:0 20px;
+    line-height: 20px;
+    border-right:1px solid #dedede;
+
+}
+.none{
+    margin-top: 140px;
+    text-align: center;
+}
+.none h2{
+    line-height: 10px;
+    color:#dedede;
+}
+.shoucang{
+    margin-top: 70px;
+    text-align: center;
+
 }
 
 
