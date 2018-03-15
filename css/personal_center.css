@@ -1,0 +1,44 @@
+.container{
+    width:1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.span4{
+    width: 234px;
+    float:left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+
+.span_box{
+    margin-bottom: 12px;
+}
+
+.span_box .box_hd{
+    height:150px;
+}
+.span_box .box_hd .title{
+    float: left;
+    margin-left: 30px;
+    margin-top:50px;
+}
+
+.span_box .box_hd .box_bd {
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.span_box .box_hd .box_bd ul{
+    margin:0 ;
+    padding:0;
+    height: 25px;
+}
+
+.span_box .box_hd .box_bd li{
+    float: left;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size:16px;
+    line-height: 25px;
+    text-align: center;
+}
