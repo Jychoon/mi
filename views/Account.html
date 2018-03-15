@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/load.css">
+    <meta charset="UTF-8">
+    <title>小米账号-登录</title>
+    <link rel="SHORTCUT ICON" href="../img/Router/mi.png">
+    <link href="../css/Account.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/load.css">
+    <div class="h_panel">
+        <div class="h_logo">
+            <a href="#" >小米网</a>
+        </div>
+    </div>
+</head>
+<body >
+<div >
+    <section id="secBody" >
+        <div class="innerBody cf">
+            <img class="f1" src="../img/小米手机/mi6-2.jpg"height="374.6" width="600" alt=""/>
+            <div class="tableWrap fr">
+                <div class="tableTap cf">
+                    <h3 class="fl">账号登录</h3>
+                    <a class="fr" href="#">注册账号</a>
+                </div>
+                <div class="tableItem">
+                    <i class="userHead"></i>
+                    <!--邮箱、以13、15、18开头的电话或者是2~4个汉字-->
+                    <input type="text" name="userName" placeholder="邮箱/手机/小米ID" required
+                           pattern="[a-zA-Z0-9]{1,10}@[a-zA-Z0-9]{1,5}\.[a-zA-Z0-9]{1,5}|^1[3578]\d{9}$|^[\u4e00-\u9fa5]{2,4}$"/>
+                </div>
+                <div class="tableItem">
+                    <i class="userLock"></i>
+                    <input type="password" name="password" placeholder="密码" required pattern="^\w{6,10}$"/>
+                </div>
+                <div class="tableAuto cf">
+                    <a class="autoMatic fl" href="#"><input class="loadGiet"  type="checkbox"/>自动登录</a>
+                    <a class="fr" href="#">忘记密码？</a>
+                </div>
+                <!--<button class="tableBtn">登录</button>-->
+                <input type="submit" class="tableBtn" value="登录"/>
+                <h2 class="moreWeb">其他方式登录</h2
+                <div class="outType cf">
+                    <ul class="loadType cf">
+                        <li class="fl"><a href="#"></a></li>
+                        <li class="fl"><a href="#"></a></li>
+                        <li class="fl"><a href="#"></a></li>
+                        <li class="fl"><a href="#"></a></li>
+                    </ul>
+                </div>
+                <ul class="typeWeb cf">
+                    <li class="fl"><i></i><a href="#">百度</a></li>
+                    <li class="fl"><i></i><a href="#">百度</a></li>
+                    <li class="fl"><i></i><a href="#">百度</a></li>
+                    <li class="fl"><i></i><a href="#">百度</a></li>
+                    <li class="fl"><i></i><a href="#">百度</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--</form>-->
+    </section>
+</div>
+<div class="footer">
+    <ul id="list" >
+        <li><a>简体</a>|</li>
+        <li><a>繁体</a>|</li>
+        <li><a>English</a>|</li>
+        <li><a>常见问题</a></li>
+    </ul>
+    <p class="nf-intro">小米公司版权所有-京ICP备10046444-<a><span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"></span>京公网安备11010802020134号</a>-京ICP证110507号</p>
+</div>
+</body>
+
