@@ -10,8 +10,8 @@ $(document).ready(function(){
         $("#login").text("admin");
        $("#register").text("消息通知");
        $("#dd").text("我的订单");
-        $("#login").attr("href","/mi/views/Personal_central.html");
-        $("#register").attr("href","/mi/views/xiaoxi.html");
+        $("#login").attr("href","../mi/views/Personal_central.html");
+        $("#register").attr("href","../mi/views/xiaoxi.html");
     }
 });
 function  navallOver() {
