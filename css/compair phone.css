@@ -206,6 +206,7 @@ p, pre {
 }
 .compare-body th .img img {
     height: 175px;
+    width: 160px;
 }
 img {
     border: 0;
